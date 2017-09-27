@@ -43,10 +43,50 @@
 }
 
                             /*<div className='alexaSection'>Alexa Yo!</div>*/
+.alexaSection{
+    width:100%;
+    min-height: 800px;
+    height: fit-content;
+    background-color: white;
+}
+
                             /*<div className='servicesAndAPIsSection'>Services and APIs</div>*/
+.servicesAndAPIsSection{
+    width:100%;
+    min-height: 900px;
+    height: fit-content;
+    background-color: #f7f7f7;
+}
+
                             /*<div className='devicesSection'>Devices</div>*/
+.devicesSection{
+    width:100%;
+    min-height: 900px;
+    height: fit-content;
+    background-color: white;
+}
+
                             /*<div className='socialMediaStrip'>Social Media</div>*/
+.socialMediaStrip{
+    width:100%;
+    height: 60px;
+    background-color: #eee;
+}
+
                             /*<div className='footerSection'>I am a footer</div>*/
+.footerSection{
+    width:100%;
+    height: fit-content;
+    min-height: 620px;
+    background-color: #666;
+}
+
                             /*<div className='allRightsReserved'>All Rights Reserved</div>*/
+.allRightsReserved{
+    width:100%;
+    height:75px;
+    background-color:#333;
+}
+
 
 
