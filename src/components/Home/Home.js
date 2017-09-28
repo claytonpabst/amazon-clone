@@ -5,7 +5,14 @@ import './Home.css';
 
 class Home extends Component {
 
+
   render() {
+
+    let headerSearchStyle = {
+      borderLeft:'1px solid grey',
+      height:'100%',
+    }
+
     return (
       <section className="home">
         <header className='headerSection'>
@@ -25,6 +32,7 @@ class Home extends Component {
           <div className='headerSectionRight'>
             <a>Sign In</a>
             <a>English</a>
+            <div style={headerSearchStyle}></div>
             <a>Search</a>
           </div>
         </header>
