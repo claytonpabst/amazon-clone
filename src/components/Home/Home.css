@@ -10,6 +10,44 @@
     height: 70px;
     background-color: #fff;
     border-bottom: 1px solid #999;
+    display: flex;
+    position: relative;
+    padding-left: 7.5%;
+}
+
+.headerSectionLogo{
+    width:140px;
+    padding-top: 7px;
+}
+.headerSectionLogo img{
+    width:100%;
+}
+
+.headerSectionNav{
+    display: flex;
+    width: 45%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headerSectionNav a{
+    /*font-weight: bold;*/
+    font-size: 18px;
+}
+
+.headerSectionNav a:hover{
+    text-decoration: underline;
+    color: orange;
+    cursor: pointer;
+}
+
+.headerSectionRight{
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    right: 10%;
 }
 
                             /*<div className='section1'>Section 1</div>*/
