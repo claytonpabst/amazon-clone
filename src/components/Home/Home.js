@@ -6,6 +6,7 @@ import Section2 from './Section2.js';
 import WhatsNewSection from './WhatsNewSection.js';
 import AppsAndGamesSection from './AppsAndGamesSection.js';
 import AlexaSection from './AlexaSection.js';
+import ServicesAndAPIsSection from './ServicesAndAPIsSection.js';
 import DevicesSection from './DevicesSection.js';
 
 import './Home.css';
@@ -25,7 +26,7 @@ class Home extends Component {
         <WhatsNewSection/>
         <AppsAndGamesSection/>
         <AlexaSection/>
-        <div className='servicesAndAPIsSection'>Services and APIs</div>
+        <ServicesAndAPIsSection/>
         <DevicesSection/>
         <div className='socialMediaStrip'>Social Media</div>
         <div className='footerSection'>I am a footer</div>

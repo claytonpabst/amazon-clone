@@ -307,10 +307,41 @@
                             /*<div className='servicesAndAPIsSection'>Services and APIs</div>*/
 .servicesAndAPIsSection{
     width:100%;
-    min-height: 900px;
     height: fit-content;
     background-color: #f7f7f7;
 }
+
+.servicesAndAPIsListItemsContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.servicesAndAPIsListItem{
+    display: flex;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+    .servicesAndAPIsListItem img{
+        margin-right: 50px;
+    }
+
+    .servicesAndAPIsListItem h3{
+        font-size: 30px;
+        font-weight: lighter;
+        line-height: 50px;
+    }
+
+    .servicesAndAPIsListItem a{
+        color: blue;
+        font-size:15px;
+        font-weight: lighter;
+        line-height: 25px;
+        width: fit-content;
+    }
+    .servicesAndAPIsListItem a:hover{
+        color: orange;
+        cursor: pointer;
+    }
 
                             /*<div className='devicesSection'>Devices</div>*/
 .devicesSection{

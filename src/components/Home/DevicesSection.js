@@ -14,33 +14,33 @@ export default function DevicesSection(){
                     </div>
                     <div className='repeatingContentListItem'>
                         <ul>
-                            <img src="https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/dex/icon_fosandroid_80x80._CB298883947_.png" alt=""/>
+                            <img src="https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/dex/icon_echo_80x80._CB298883946_.png" alt=""/>
                         </ul>
                         <ul>
-                            <h3>Fire OS & Android</h3>
-                            <h1>Fire OS is our Android-based operating system that powers Fire tablets and Amazon Fire TV devices. Learn more »</h1>
-                        </ul>
-                    </div>
-                    <div className='repeatingContentListItem'>
-                        <ul>
-                            <img src="https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/dex/icon_cpt_80x80._CB299518047_.png" alt=""/>
-                        </ul>
-                        <ul>
-                            <h3>Cross-Platform Engines</h3>
-                            <h1>Plugins and extensions make cross-platform development easier. Amazon offers plugins and extensions that work with some of the most popular cross-platform engines to extend our APIs and services to your apps. Learn more »</h1>
+                            <h3>Amazon Echo</h3>
+                            <h1>Amazon Echo is a new category of device designed around your voice – it is hands-free and always on. Alexa, the voice service that powers Echo, provides skills that enable customers to interact with devices using voice. Learn more »</h1>
                         </ul>
                     </div>
                     <div className='repeatingContentListItem'>
                         <ul>
-                            <img src="https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/dex/icon_pcmac_80x80._CB299518046_.png" alt=""/>
+                            <img src="https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/dex/icon_firetv_80x80._CB298883947_.png" alt=""/>
                         </ul>
                         <ul>
-                            <h3>PC & Mac</h3>
-                            <h1>Distribute your PC and Mac applications to millions of new customers through two dedicated storefronts on Amazon.com - Digital Software and Games Store and Indie Games Store. It’s easy to get started. Learn more »</h1>
+                            <h3>Amazon Fire TV</h3>
+                            <h1>Amazon’s powerful and popular streaming media players, Amazon Fire TV and Fire TV Stick, help enable app and game developers to reach more customers in the living room. To get started, you can build with Android or use HTML5. Learn more »</h1>
+                        </ul>
+                    </div>
+                    <div className='repeatingContentListItem'>
+                        <ul>
+                            <img src="https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/dex/icon_firetablet_80x80._CB298883946_.png" alt=""/>
+                        </ul>
+                        <ul>
+                            <h3>Fire Tablets</h3>
+                            <h1>The all-new 7" Fire tablet was the #1 best-selling product across Amazon.com this holiday. Now is the time to get your apps and games published in the Amazon Appstore and available to the millions of new Fire tablet customers. Learn more »</h1>
                         </ul>
                     </div>
                 </div>
-                <div className='repeatingImageContainer' style={{paddingTop:"80px"}}>
+                <div className='repeatingImageContainer' style={{paddingTop:"150px"}}>
                     <img src="https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/dex/L0_bknd_devices._CB299118606_.png" alt=""/>
                 </div>
             </section>
