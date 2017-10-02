@@ -31,7 +31,6 @@
 }
 
 .headerSectionNav a{
-    /*font-weight: bold;*/
     font-size: 18px;
 }
 
@@ -52,16 +51,54 @@
 }
 
 .headerSectionRight a{
-    /*text-align: center;*/
     font-size: 12px;
 }
 
                             /*<div className='section1'>Section 1</div>*/
 .section1{
     width:100%;
-    height: 345px;
+    padding: 10px;
     background-color: #d3f1ff;   
     border-bottom: 5px solid #333;
+    display: flex;
+    justify-content: center;
+}
+
+.section1Left{
+    height: 330px;
+    width: 45%;
+    display: inline-block;
+}
+
+.section1LeftContent{
+    text-align: left;
+    width: 600px;
+    height: auto;
+    margin: 8% auto;
+    position: relative;
+}
+
+.section1LeftContent h3{
+    font-size: 40px;
+    line-height: 60px; 
+}
+.section1LeftContent h1{
+    line-height: 40px;
+}
+.section1LeftContent a{
+    color: blue;
+}
+.section1LeftContent a:hover{
+    cursor: pointer;
+}
+
+.section1Right{
+    height: 330px;
+    width: 35%;
+}
+
+.section1Right img{
+    height: 100%;
 }
 
                             /*<div className='section2'>Section 2</div>*/

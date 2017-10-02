@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './Header.js';
+import Section1 from './Section1.js';
 
 import './Home.css';
 
@@ -12,7 +13,7 @@ class Home extends Component {
     return (
       <section className="home">
         <Header/>
-        <div className='section1'>Section 1</div>
+        <Section1/>
         <div className='section2'>Section 2</div>
         <div className='whatsNewSection'>What's New</div>
         <div className='appsAndGamesSection'>Apps and Games</div>
