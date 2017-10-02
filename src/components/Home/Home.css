@@ -39,7 +39,7 @@
 }
 
 .headerSectionNav a{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .headerSectionNav a:hover{
@@ -233,15 +233,73 @@
                             /*<div className='appsAndGamesSection'>Apps and Games</div>*/
 .appsAndGamesSection{
     width:100%;
-    min-height: 1000px;
     height: fit-content;
     background-color: #f7f7f7;
 }
 
+.repeatingOuterContainer{
+    width: 95%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.repeatingContentContainer{
+    width: 60%;
+    padding-top: 60px;
+    padding-right: 140px;
+    text-align: left;
+}
+
+.repeatingContentTitle{
+    font-size: 50px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+.repeatingContentSummary{
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+.repeatingContentListItem{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+    .repeatingContentListItem img{
+        margin-right: 50px;
+    }
+
+    .repeatingContentListItem h3{
+        font-size: 30px;
+        font-weight: lighter;
+        line-height: 50px;
+    }
+
+    .repeatingContentListItem h1{
+        font-size:15px;
+        font-weight: lighter;
+        line-height: 25px;
+    }
+
+.repeatingImageContainer{
+    position: relative;
+    width: 40%;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+.repeatingImageContainer img{
+    margin-right: 100px;
+}
+
+
                             /*<div className='alexaSection'>Alexa Yo!</div>*/
 .alexaSection{
     width:100%;
-    min-height: 800px;
     height: fit-content;
     background-color: white;
 }
@@ -257,7 +315,6 @@
                             /*<div className='devicesSection'>Devices</div>*/
 .devicesSection{
     width:100%;
-    min-height: 900px;
     height: fit-content;
     background-color: white;
 }

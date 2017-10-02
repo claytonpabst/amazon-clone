@@ -4,6 +4,9 @@ import HeaderPageDrop from './HeaderPageDrop.js';
 import Section1 from './Section1.js';
 import Section2 from './Section2.js';
 import WhatsNewSection from './WhatsNewSection.js';
+import AppsAndGamesSection from './AppsAndGamesSection.js';
+import AlexaSection from './AlexaSection.js';
+import DevicesSection from './DevicesSection.js';
 
 import './Home.css';
 
@@ -20,10 +23,10 @@ class Home extends Component {
         <Section1/>
         <Section2/>
         <WhatsNewSection/>
-        <div className='appsAndGamesSection'>Apps and Games</div>
-        <div className='alexaSection'>Alexa Yo!</div>
+        <AppsAndGamesSection/>
+        <AlexaSection/>
         <div className='servicesAndAPIsSection'>Services and APIs</div>
-        <div className='devicesSection'>Devices</div>
+        <DevicesSection/>
         <div className='socialMediaStrip'>Social Media</div>
         <div className='footerSection'>I am a footer</div>
         <div className='allRightsReserved'>All Rights Reserved</div>
