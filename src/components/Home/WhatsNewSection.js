@@ -26,7 +26,7 @@ export default function WhatsNewSection(){
                         <div className='whatsNewSectionLeftContent'>
                             <img src="https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/dex/alexa/hero/GUI-SDK_editorial._CB505525073_.png" alt=""/>
                             <h3>Build Skills for Echo Show</h3>
-                            <h1>check out the new Alexa Skills Kit features for display and video interfaces.</h1>
+                            <h1>Check out the new Alexa Skills Kit features for display and video interfaces.</h1>
                         </div>
                     </div>
                 </div>

@@ -13,6 +13,7 @@
     display: flex;
     position: fixed;
     padding-left: 7.5%;
+    z-index: 999;
 }
 
 .headerSectionPageDrop{
@@ -201,12 +202,12 @@
 }
 .whatsNewSectionLeftContent h3{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     margin: 15px 0;
     line-height: 25px;
 }
 .whatsNewSectionLeftContent h1{
-    font-size: 15px;
+    font-size: 16px;
     line-height: 20px;
 }
 
