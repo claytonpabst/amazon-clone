@@ -10,6 +10,7 @@ import ServicesAndAPIsSection from './ServicesAndAPIsSection.js';
 import DevicesSection from './DevicesSection.js';
 import SocialMediaStrip from './SocialMediaStrip.js';
 import FooterSection from './FooterSection.js';
+import DropMenuAppsAndGames from './DropMenuAppsAndGames';
 
 import './Home.css';
 

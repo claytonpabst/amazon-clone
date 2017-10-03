@@ -1,4 +1,5 @@
 import React from 'react';
+import DropMenuAppsAndGames from './DropMenuAppsAndGames.js';
 
 import './Home.css';
 
@@ -17,14 +18,22 @@ export default function Header() {
               <img src="https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/dex/amazon_developer._CB288408811_.png"/>
             </div>
             <div className='headerSectionNav'>
-              <a>Apps & Games</a>
-              <a>Alexa</a>
-              <a>AWS</a>
-              <a>Services & APIs</a>
-              <a>Devices</a>
-              <a>Blog</a>
-              <a>Docs</a>
-              <a>Support</a>
+              <tr><a>Apps & Games
+                <DropMenuAppsAndGames/>
+              </a></tr>
+              <tr><a>Alexa
+                <DropMenuAppsAndGames/>
+              </a></tr>
+              <tr><a>AWS</a></tr>
+              <tr><a>Services & APIs
+                <DropMenuAppsAndGames/>
+              </a></tr>
+              <tr><a>Devices
+                <DropMenuAppsAndGames/>
+              </a></tr>
+              <tr><a>Blog</a></tr>
+              <tr><a>Docs</a></tr>
+              <tr><a>Support</a></tr>
             </div>
             <div className='headerSectionRight'>
               <a>Sign In</a>
