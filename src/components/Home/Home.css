@@ -12,7 +12,7 @@
     border-bottom: 1px solid #999;
     display: flex;
     position: fixed;
-    padding-left: 7.5%;
+    /*padding-left: 7.5%;*/
     z-index: 999;
 }
 
@@ -21,6 +21,18 @@
     height: 70px;
     border-bottom: 1px solid #999;
     /*position: relative;*/
+}
+
+.headerSectionWrapper{
+    width: 95%;
+    max-width: 1400px;
+    height: 70px;
+    background-color: #fff;
+    border-bottom: 1px solid #999;
+    display: flex;
+    z-index: 999;
+    margin: 0 auto;
+    position: relative;
 }
 
 .headerSectionLogo{
@@ -33,7 +45,8 @@
 
 .headerSectionNav{
     display: flex;
-    width: 700px;
+    width: 60%;
+    max-width: 700px;
     justify-content: space-around;
     align-items: center;
 }
@@ -55,7 +68,7 @@
     align-items: center;
     justify-content: space-between;
     position: absolute;
-    right: 7.5%;
+    right: 0px;
 }
 
 .headerSectionRight a{
@@ -294,6 +307,7 @@
 
 .repeatingImageContainer img{
     margin-right: 100px;
+    width: 100%;
 }
 
 
