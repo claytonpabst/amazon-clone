@@ -8,6 +8,8 @@ import AppsAndGamesSection from './AppsAndGamesSection.js';
 import AlexaSection from './AlexaSection.js';
 import ServicesAndAPIsSection from './ServicesAndAPIsSection.js';
 import DevicesSection from './DevicesSection.js';
+import SocialMediaStrip from './SocialMediaStrip.js';
+import FooterSection from './FooterSection.js';
 
 import './Home.css';
 
@@ -28,9 +30,11 @@ class Home extends Component {
         <AlexaSection/>
         <ServicesAndAPIsSection/>
         <DevicesSection/>
-        <div className='socialMediaStrip'>Social Media</div>
-        <div className='footerSection'>I am a footer</div>
-        <div className='allRightsReserved'>All Rights Reserved</div>
+        <SocialMediaStrip/>
+        <FooterSection/>
+        <div className='allRightsReserved'>
+          <h1>© 2010-2017, Amazon.com, Inc. or its affiliates. All Rights Reserved.</h1>
+        </div>
       </section>
     );
   }

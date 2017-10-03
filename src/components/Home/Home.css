@@ -355,21 +355,77 @@
     width:100%;
     height: 60px;
     background-color: #eee;
+    position: relative;
+}
+
+.socialMediaStripContent{
+    height: 100%;
+    position: absolute;
+    right: 15%;
+    display: flex;
+    align-items: center;
+}
+.socialMediaStripContent h1{
+    color: #555;
+    font-weight: bold;
+    margin:auto 5px;
+}
+.socialMediaStripContent img{
+    margin: auto 2px;
 }
 
                             /*<div className='footerSection'>I am a footer</div>*/
 .footerSection{
     width:100%;
     height: fit-content;
-    min-height: 620px;
     background-color: #666;
+}
+
+.footerSectionContentContainerWrapper{
+    width: 95%;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerSectionContentContainer{
+    width: 33.33%;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+.footerSectionContentContainer div{
+    width: 50%;
+    text-align: left;
+}
+.footerSectionContentContainer h3{
+    color: #ddd;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.footerSectionContentContainer h1{
+    color: #ddd;
+    font-size: 13px;
+    font-weight: lighter;
+    margin-bottom: 15px
+}
+
+.footerSectionContentContainer h1:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
                             /*<div className='allRightsReserved'>All Rights Reserved</div>*/
 .allRightsReserved{
     width:100%;
-    height:75px;
     background-color:#333;
+    padding:25px 0;
+}
+.allRightsReserved h1{
+    font-weight: lighter;
+    color: #ddd;
 }
 
 
