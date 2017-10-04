@@ -14,6 +14,9 @@ export default function Header() {
     return (
         <header className='headerSection'>
           <section className='headerSectionWrapper'>
+            <div className='headerSectionHamNav'>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png" alt=""/>
+            </div>
             <div className='headerSectionLogo'>
               <img src="https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/dex/amazon_developer._CB288408811_.png"/>
             </div>
