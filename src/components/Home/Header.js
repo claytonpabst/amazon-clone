@@ -18,29 +18,29 @@ export default function Header() {
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png" alt=""/>
             </div>
             <div className='headerSectionLogo'>
-              <img src="https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/dex/amazon_developer._CB288408811_.png"/>
+              <img src="https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/dex/amazon_developer._CB288408811_.png" alt=""/>
             </div>
             <div className='headerSectionNav'>
-              <tr><a>Apps & Games
+              <span><a>Apps & Games
                 <DropMenuAppsAndGames/>
-              </a></tr>
-              <tr><a>Alexa
+              </a></span>
+              <span><a>Alexa
                 <DropMenuAppsAndGames/>
-              </a></tr>
-              <tr><a>AWS</a></tr>
-              <tr><a>Services & APIs
+              </a></span>
+              <span><a>AWS</a></span>
+              <span><a>Services & APIs
                 <DropMenuAppsAndGames/>
-              </a></tr>
-              <tr><a>Devices
+              </a></span>
+              <span><a>Devices
                 <DropMenuAppsAndGames/>
-              </a></tr>
-              <tr><a>Blog</a></tr>
-              <tr><a>Docs</a></tr>
-              <tr><a>Support</a></tr>
+              </a></span>
+              <span><a>Blog</a></span>
+              <span><a>Docs</a></span>
+              <span><a>Support</a></span>
             </div>
             <div className='headerSectionRight'>
               <a>Sign In</a>
-              <a>English</a>
+              <a className='headerLanguageSelect'>English</a>
               <div style={headerSearchStyle}></div>
               <a>Search</a>
             </div>
