@@ -3,10 +3,6 @@ import './Home.css';
 
 export default function AlexaSection(){
 
-    let repeatingContentContainerStyle = {
-        paddingLeft:"150px",
-        paddingRight:"0px"
-    }
 
     return(
         <div className='alexaSection'>
@@ -14,7 +10,7 @@ export default function AlexaSection(){
                 <div className='repeatingImageContainer' style={{paddingTop:"50px"}}>
                     <img src="https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/dex/L0_bknd_alexa._CB299516724_.png" alt=""/>
                 </div>
-                <div className='repeatingContentContainer' style={repeatingContentContainerStyle}>
+                <div className='repeatingContentContainerAlexa'>
                     <div className='repeatingContentTitle'>
                         Alexa
                     </div>

@@ -270,6 +270,13 @@
     padding-right: 140px;
     text-align: left;
 }
+.repeatingContentContainerAlexa{
+    width: 60%;
+    padding-top: 60px;
+    padding-right: 0px;
+    padding-left:150px;
+    text-align: left;
+}
 
 .repeatingContentTitle{
     font-size: 50px;
@@ -576,6 +583,192 @@
 .section1Right img{
     width: 300px;
 }
+                            /*-----------section2-------*/
+
+.section2Content{
+    height: fit-content;
+}
+
+.section2Content img{
+    width: 70px;
+}
+.section2Content h3{
+    font-size: 15px;
+    font-weight: normal;
+}
+.section2Content h1{
+    display: none;
+}
+
+.section2Content:hover h3{
+    color: orange;
+}
+
+                        /*------------what new section-----------*/
+
+.whatsNewSection{
+    height: fit-content;
+    background: white;
+}
+
+.whatsNewSectionMainParent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    justify-content: space-around;
+}
+
+.whatsNewSectionTitle{
+    font-size: 30px;
+    font-weight: lighter;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.whatsNewSectionLeft{
+    width:100%;
+    padding: 50px 20px;
+    height: fit-content;
+    position: initial;
+    margin: 0; 
+}
+
+.whatsNewSectionLeftContentContainer{
+    width: 100%;
+    position: initial;
+    bottom: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center space-between;
+}
+
+.whatsNewSectionLeftContent{
+    min-width: 300px;
+    width: 45%;
+    height: fit-content;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid lightgrey;
+}
+.whatsNewSectionLeftContent img{
+    width:100%;
+}
+.whatsNewSectionLeftContent h3{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 15px 0;
+    line-height: 25px;
+}
+.whatsNewSectionLeftContent h1{
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.whatsNewSectionRight{
+    border-left: none;
+    margin-left: 20px;
+    width:auto;
+    height: fit-content;
+}
+
+                        /*-------reusable-------*/
+
+
+.repeatingContentContainer{
+        width: 100%; 
+        padding-top: 30px;
+        padding-right: 20px;
+        /*background: pink;*/
+}
+.repeatingContentContainerAlexa{
+        width: 100%; 
+        padding-top: 30px;
+        padding-right: 20px;
+        padding-left: 0px;
+        /*background: pink;*/
+}
+
+.repeatingContentTitle{
+        font-size: 30px;
+        font-weight: normal;
+}
+
+.repeatingContentSummary{
+        margin-bottom: 30px;
+}
+
+.repeatingContentListItem{
+        border-top: 1px solid lightgrey;
+        margin-bottom: 10px;
+        padding-top: 10px;
+}
+
+.repeatingContentListItem img{
+        width: 50px;
+        margin-right: 30px;
+}
+
+.repeatingContentListItem h3{
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 30px;
+}
+
+.repeatingContentListItem h1{
+    font-size:15px;
+    font-weight: lighter;
+    line-height: 25px;
+}
+
+.repeatingImageContainer img{
+    margin-right: 0px;
+}
+.repeatingImageContainer{
+    display: none;
+}
+
+                        /*-----------services and apis-----------*/
+
+.servicesAndAPIsSection{
+    width:100%;
+    height: fit-content;
+    background-color: #f7f7f7;
+}
+
+.servicesAndAPIsListItemsContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.servicesAndAPIsListItem{
+    display: flex;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.servicesAndAPIsListItem img{
+    margin-right: 50px;
+}
+
+.servicesAndAPIsListItem h3{
+    font-size: 30px;
+    font-weight: lighter;
+    line-height: 50px;
+}
+
+.servicesAndAPIsListItem a{
+    color: blue;
+    font-size:15px;
+    font-weight: lighter;
+    line-height: 25px;
+    width: fit-content;
+}
+.servicesAndAPIsListItem a:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+
 }
 
 
